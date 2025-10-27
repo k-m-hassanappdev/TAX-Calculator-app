@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    >
+
+    <!-- হেডার সেকশন -->
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/icon"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tax Assistant"
+        android:textSize="24sp"
+        android:textColor="@color/primary_color"
+        android:textStyle="bold"/>
+
+    <!-- প্রধান বাটন সেকশন -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTaxInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="ট্যাক্স ইনফরমেশন"
+        android:textSize="18sp"
+        app:iconTint="@color/white"
+        app:backgroundTint="@color/primary_color"
+        app:cornerRadius="8dp"
+        android:elevation="4dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTaxCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="ট্যাক্স ক্যালকুলেটর"
+        android:textSize="18sp"
+        app:iconTint="@color/white"
+        app:backgroundTint="@color/secondary_color"
+        app:cornerRadius="8dp"
+        android:elevation="4dp"/>
+
+    <!-- ফুটার টেক্সট -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="সহজে ট্যাক্স গণনা করুন"
+        android:textColor="@color/text_gray"
+        android:textSize="14sp"/>
+
+</LinearLayout>

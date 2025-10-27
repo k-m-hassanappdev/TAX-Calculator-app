@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E8F5E9"
+    tools:context=".InformationActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- শিরোনাম -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বাংলাদেশে আয়কর সংক্রান্ত তথ্য (২০২৫-২৬)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp" />
+
+        <!-- করদাতার শ্রেণি -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="১. করদাতার শ্রেণিবিন্যাস:\n• সাধারণ ব্যক্তি (পুরুষ)\n• নারী ও ৬৫ বছর বা তদূর্ধ্ব\n• প্রতিবন্ধী ও যুদ্ধাহত মুক্তিযোদ্ধা"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- করমুক্ত আয়ের সীমা -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="২. করমুক্ত আয়সীমা:\n• সাধারণ: ৩,৫০,০০০ টাকা\n• নারী/৬৫+: ৪,০০,০০০ টাকা\n• প্রতিবন্ধী: ৪,৭৫,০০০ টাকা\n• মুক্তিযোদ্ধা: ৫,০০,০০০ টাকা"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- আয়কর হার -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="৩. আয়কর হার (সাধারণ):\n• ৩.৫ লক্ষ পর্যন্ত – করমুক্ত\n• পরবর্তী ১ লক্ষ – ৫%\n• পরবর্তী ৩ লক্ষ – ১০%\n• পরবর্তী ৪ লক্ষ – ১৫%\n• পরবর্তী ৫ লক্ষ – ২০%\n• অতিরিক্ত আয় – ২৫%"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- বাধ্যতামূলক করদাতা -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="৪. বাধ্যতামূলক রিটার্ন জমা:\n• গাড়ি, ফ্ল্যাট বা জমি থাকলে\n• ব্যাংকে বড় লেনদেন\n• বিদেশ ভ্রমণ করলে\n• TIN থাকলে"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- রিটার্ন সময়সীমা -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="৫. রিটার্ন জমা সময়সীমা:\n• প্রতি বছর ৩০ নভেম্বর\n• ওয়েবসাইট: etax.nbr.gov.bd"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- কর ছাড় -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="৬. কর ছাড় (Rebate):\n• জীবন বীমা\n• সঞ্চয়পত্র\n• পেনশন স্কিম\n• কিছু নির্দিষ্ট বিনিয়োগে কর ছাড় পাওয়া যায়"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

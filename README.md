@@ -1,4 +1,4 @@
-# 📱 Bangladesh Tax Calculator 2025  
+# 📱 Bangladesh Tax Calculator  
 ### 🎯 Accurate & Simple Tax Calculator for Bangladeshi Taxpayers
 
 ---

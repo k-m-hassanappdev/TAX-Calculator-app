@@ -68,8 +68,8 @@ User Income ➝ Tax Category ➝ Apply Tax Slab ➝ Calculate ➝ Show Final Tax
 
 ## 📬 Contact
 
-👨‍💻 Developer: Hasan  
-📧 Email: hasan.dev@mail.com  
-💼 LinkedIn: linkedin.com/in/your-profile  
+👨‍💻 Developer: K. M. Hassan  
+📧 Email: k.m.hassan2580@gmail.com
+💼 LinkedIn: https://www.linkedin.com/in/k-m-hassanappdevhttps://www.linkedin.com/in/k-m-hassanappdev
 
 
